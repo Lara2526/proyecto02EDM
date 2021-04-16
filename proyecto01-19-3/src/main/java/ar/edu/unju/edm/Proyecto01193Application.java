@@ -1,5 +1,4 @@
 package ar.edu.unju.edm;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -19,12 +18,12 @@ public class Proyecto01193Application {
 		System.out.println("la multiplicacion de a*b es igual =" + a*b);
 		
 		
-		
-		System.out.println("la suma de los valores son"+ sumar(a,b));
+//	System.out.println("la suma de los valores son"+ sumar(a,b));
 	}
-	public static int sumar(int a, int b) { 
+  //  public static int sumar(int a, int b) { 
 					
-	return a + b;
+//	return a + b;
 	
-	}
+	//}
+	
 	}

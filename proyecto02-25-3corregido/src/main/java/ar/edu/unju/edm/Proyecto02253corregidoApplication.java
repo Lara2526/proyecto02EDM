@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import ar.edu.unju.edm.controler.CalculadoraControler;
+import ar.edu.unju.edm.controler.CuentaControler;
 
 @SpringBootApplication
 public class Proyecto02253corregidoApplication {
@@ -14,6 +15,8 @@ public class Proyecto02253corregidoApplication {
 		CalculadoraControler operacion = new CalculadoraControler();
 		operacion.resolverOperaciones();
 		
+		CuentaControler cuenta = new CuentaControler();
+		cuenta.operarConCuenta();
 	}
 
 }

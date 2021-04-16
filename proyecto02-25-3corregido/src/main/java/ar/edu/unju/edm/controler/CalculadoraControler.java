@@ -6,8 +6,8 @@ public class CalculadoraControler {
 	
 	public void resolverOperaciones() {
 	
-		int num1;
-		int num2;
+		float num1;
+		float num2;
 		num1 = 45;
 		num2 = 20;
 		Calculadora nuevaCalculadora = new Calculadora();
@@ -16,6 +16,9 @@ public class CalculadoraControler {
 		nuevaCalculadora.setB(num2);
 		
 		System.out.println("El resultado de la suma es:"+ nuevaCalculadora.SumarDosNumeros());
+	
+		System.out.println("El resultado de la division es:" + nuevaCalculadora.DividirDosNumeros);
+		
 	}
 	}
 	
